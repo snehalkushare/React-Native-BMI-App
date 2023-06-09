@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "bmi",
+    "name": "BMI",
     "slug": "bmi",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/bmi.png",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,17 +19,17 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/bmi.png",
+        "backgroundColor": "#000000"
       },
-      "package": "com.prasadthx.bmi"
+      "package": "com.snehalsk.bmi"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "b92104a3-db35-4e8d-b6cb-069d5751fdbe"
+        "projectId": "85de44a4-3a22-4296-b11d-b63b10e8a1f5"
       }
     }
   }
